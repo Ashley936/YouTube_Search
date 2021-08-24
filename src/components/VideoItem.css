@@ -1,0 +1,20 @@
+#video-card{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#video-card>img{
+    min-width: 250px;
+    max-width: 400px;
+    cursor: pointer;
+}
+
+#video-card .content{
+    margin: 30px;
+}
+#video-card .content .header{
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+    cursor: pointer;
+}
